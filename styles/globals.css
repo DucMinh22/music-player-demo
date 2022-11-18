@@ -24,3 +24,100 @@ a {
     background: black;
   }
 }
+
+.left-side-bar {
+  background-color: #000;
+  color: rgb(197, 197, 197);
+}
+
+.left-side-bar ul {
+  list-style-type: none;
+  margin-top: 25px;
+  padding-left: 0;
+}
+
+.left-side-bar ul li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.left-side-bar ul li:hover {
+  color: white;
+}
+
+.left-side-bar ul li .active {
+  color: white;
+}
+
+.right-side-bar {
+  background-color: #0f0f0f;
+  height: 64px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.sign-in {
+  padding: 0 50px;
+  cursor: pointer;
+}
+
+.btn-sign-in {
+  background-color: white;
+  color: #000;
+  border-radius: 500px;
+  font-size: inherit;
+  padding-block: 10px;
+  padding-inline: 32px;
+  cursor: pointer;
+}
+
+.left-menu {
+  padding: 10px 30px;
+}
+
+.main-layout {
+  padding: 50px;
+  background-color: #1c1c1c;
+  color: white;
+  height: 100vh;
+}
+
+.card-music {
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #161616;
+}
+
+.img-singer {
+  border-radius: 3px;
+}
+
+.card-music:hover {
+ background-color:#404040;
+}
+
+.player {
+  background-color: #404040;
+  color: #e0e0e0;
+  height: 100px;
+  position: sticky;
+  bottom: 0;
+}
+
+.audio {
+  width: 100%;
+  height: 2px;
+}
+
+.audio-song {
+ padding: 0 20px;
+ border-radius: 3px;
+ background-color: #161616;
+ margin-bottom: 15px;
+}
+
+.audio-song:hover {
+  background-color: #404040;
+}
